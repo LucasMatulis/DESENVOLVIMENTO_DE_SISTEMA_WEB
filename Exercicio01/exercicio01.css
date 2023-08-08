@@ -1,0 +1,41 @@
+h1{
+    color: red;
+}
+
+img{
+    height: 400px;
+    border-radius: 25px;
+}
+
+body{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: radial-gradient(circle, #2f7838, #2c9438, #26b034, #20cd2a, #1ceb12);    
+    margin:30px
+}
+
+ul{
+    background-color: rgb(208, 255, 0);
+    border-radius: 25px;
+    margin-right: 960px;
+}
+
+li{
+    color: black;
+}
+
+.github{
+    border-radius: 25px;
+    background-color: purple;
+    margin-right: 1308px;
+    text-align: center;
+}
+
+.github img{
+    height: 20px;
+    margin-top: 1px;
+}
+
+.github a{
+    color: white;
+}
