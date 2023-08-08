@@ -1,14 +1,15 @@
 h1{
     color: red;
+    text-align: center;
 }
 
-img{
+.jare{
     height: 400px;
-    border-radius: 25px;
+    border-radius: 200px;
+    margin-left: 20px;
 }
 
 body{
-    color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image: radial-gradient(circle, #2f7838, #2c9438, #26b034, #20cd2a, #1ceb12);    
     margin:30px
@@ -17,11 +18,22 @@ body{
 ul{
     background-color: rgb(208, 255, 0);
     border-radius: 25px;
-    margin-right: 960px;
+    width: 400px;
 }
 
 li{
     color: black;
+}
+
+.eu{
+    background-color: gray;
+    border-radius: 25px;
+    width: 240px;
+    margin-left: 90px;
+}
+
+.eu p{
+    margin-left: 15px;
 }
 
 .github{
@@ -29,13 +41,28 @@ li{
     background-color: purple;
     margin-right: 1308px;
     text-align: center;
+    width: 100px;
+    height: 30px;
 }
 
 .github img{
     height: 20px;
-    margin-top: 1px;
+    margin-top: 4px;
 }
 
 .github a{
-    color: white;
+    color: rgb(238, 60, 223);
+    margin-left: 10px;
+    float: left;
+}
+
+.mundo{
+    position: absolute;
+    left: 35%;
+    background-image: linear-gradient(to bottom, #b9aaaa, #be9c90, #b69270, #9d8f51, #738e40);
+    border-radius: 25px;
+}
+
+.titulos{
+    text-align: center;
 }
