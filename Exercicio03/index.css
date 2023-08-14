@@ -1,0 +1,37 @@
+table{
+	padding: 30px;
+}
+td{	
+	text-align: center;	
+}
+thead{
+	color: rgb(16, 13, 179);	
+}
+
+.coluna1{ 
+	font-weight: bold;
+}
+th{
+	width: 180px;
+}
+#period{ background-color: gainsboro; width: 250px; padding-left: 20px; padding-right: 20px;}
+#android{ background-color: aquamarine;}
+#ios{ background-color: rgb(36, 169, 187);}
+#windows{ background-color: rgba(179, 152, 192, 0.747);}
+#outros{ background-color: rgb(240, 207, 176);}
+pre 
+{
+	font-family: "verdana";
+	color: rgb(16, 13, 179);
+}
+body{
+	background-color: rgba(81, 195, 55, 0.285);
+	font-size: 30pt;
+}
+
+ol{
+	color: rgb(16, 13, 179);	
+}
+ul{
+	color: rgb(33, 172, 79);
+}
