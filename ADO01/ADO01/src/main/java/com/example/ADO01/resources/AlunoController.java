@@ -13,13 +13,13 @@ public class AlunoController {
     private AlunoRepository alunoRepository;
 
     // Endpoint para criar um novo aluno
-    @PostMapping("/")
+    @PostMapping("")
     public Aluno createAluno(@RequestBody Aluno aluno) {
         return alunoRepository.save(aluno);
     }
 
     // Endpoint para buscar todos os alunos
-    @GetMapping("/")
+    @GetMapping("")
     public List<Aluno> getAllAlunos() {
         return alunoRepository.findAll();
     }
